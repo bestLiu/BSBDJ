@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		89C4E3F61C71A55F00E58FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E3F51C71A55F00E58FEB /* main.m */; };
 		89C4E3F91C71A55F00E58FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E3F81C71A55F00E58FEB /* AppDelegate.m */; };
-		89C4E3FC1C71A55F00E58FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E3FB1C71A55F00E58FEB /* ViewController.m */; };
 		89C4E4011C71A55F00E58FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C4E4001C71A55F00E58FEB /* Assets.xcassets */; };
 		89C4E40F1C71A55F00E58FEB /* BaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E40E1C71A55F00E58FEB /* BaiSiBuDeJieTests.m */; };
 		89C4E41A1C71A55F00E58FEB /* BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4191C71A55F00E58FEB /* BaiSiBuDeJieUITests.m */; };
+		89C4E4521C71B93A00E58FEB /* FriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4481C71B93A00E58FEB /* FriendTrendsViewController.m */; };
+		89C4E4531C71B93A00E58FEB /* EssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E44B1C71B93A00E58FEB /* EssenceViewController.m */; };
+		89C4E4541C71B93A00E58FEB /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E44E1C71B93A00E58FEB /* MeViewController.m */; };
+		89C4E4551C71B93A00E58FEB /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4511C71B93A00E58FEB /* NewViewController.m */; };
+		89C4E45D1C71CA6D00E58FEB /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E45C1C71CA6D00E58FEB /* UIView+Extension.m */; };
+		89C4E4631C71CB5F00E58FEB /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4601C71CB5F00E58FEB /* TabBar.m */; };
+		89C4E4641C71CB5F00E58FEB /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4621C71CB5F00E58FEB /* TabbarController.m */; };
+		89C4E46A1C71D59000E58FEB /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E4691C71D59000E58FEB /* UIBarButtonItem+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +44,6 @@
 		89C4E3F51C71A55F00E58FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89C4E3F71C71A55F00E58FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89C4E3F81C71A55F00E58FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		89C4E3FA1C71A55F00E58FEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		89C4E3FB1C71A55F00E58FEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89C4E4001C71A55F00E58FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89C4E4051C71A55F00E58FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89C4E40A1C71A55F00E58FEB /* BaiSiBuDeJieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiBuDeJieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +52,23 @@
 		89C4E4151C71A55F00E58FEB /* BaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaiSiBuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C4E4191C71A55F00E58FEB /* BaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		89C4E41B1C71A55F00E58FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C4E4471C71B93A00E58FEB /* FriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTrendsViewController.h; sourceTree = "<group>"; };
+		89C4E4481C71B93A00E58FEB /* FriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTrendsViewController.m; sourceTree = "<group>"; };
+		89C4E44A1C71B93A00E58FEB /* EssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceViewController.h; sourceTree = "<group>"; };
+		89C4E44B1C71B93A00E58FEB /* EssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceViewController.m; sourceTree = "<group>"; };
+		89C4E44D1C71B93A00E58FEB /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		89C4E44E1C71B93A00E58FEB /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		89C4E4501C71B93A00E58FEB /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		89C4E4511C71B93A00E58FEB /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		89C4E45A1C71C9BF00E58FEB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		89C4E45B1C71CA6D00E58FEB /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		89C4E45C1C71CA6D00E58FEB /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		89C4E45F1C71CB5F00E58FEB /* TabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBar.h; sourceTree = "<group>"; };
+		89C4E4601C71CB5F00E58FEB /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
+		89C4E4611C71CB5F00E58FEB /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		89C4E4621C71CB5F00E58FEB /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
+		89C4E4681C71D59000E58FEB /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		89C4E4691C71D59000E58FEB /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +121,7 @@
 			children = (
 				89C4E3F71C71A55F00E58FEB /* AppDelegate.h */,
 				89C4E3F81C71A55F00E58FEB /* AppDelegate.m */,
-				89C4E3FA1C71A55F00E58FEB /* ViewController.h */,
-				89C4E3FB1C71A55F00E58FEB /* ViewController.m */,
+				89C4E4361C71B8D700E58FEB /* Class */,
 				89C4E4001C71A55F00E58FEB /* Assets.xcassets */,
 				89C4E4051C71A55F00E58FEB /* Info.plist */,
 				89C4E3F41C71A55F00E58FEB /* Supporting Files */,
@@ -112,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				89C4E3F51C71A55F00E58FEB /* main.m */,
+				89C4E45A1C71C9BF00E58FEB /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +154,77 @@
 				89C4E41B1C71A55F00E58FEB /* Info.plist */,
 			);
 			path = BaiSiBuDeJieUITests;
+			sourceTree = "<group>";
+		};
+		89C4E4361C71B8D700E58FEB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E45E1C71CB3B00E58FEB /* TabbarNav */,
+				89C4E4591C71C99D00E58FEB /* Category */,
+				89C4E4491C71B93A00E58FEB /* 精华 */,
+				89C4E44F1C71B93A00E58FEB /* 新帖 */,
+				89C4E4461C71B93A00E58FEB /* 关注 */,
+				89C4E44C1C71B93A00E58FEB /* 我 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		89C4E4461C71B93A00E58FEB /* 关注 */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E4471C71B93A00E58FEB /* FriendTrendsViewController.h */,
+				89C4E4481C71B93A00E58FEB /* FriendTrendsViewController.m */,
+			);
+			path = "关注";
+			sourceTree = "<group>";
+		};
+		89C4E4491C71B93A00E58FEB /* 精华 */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E44A1C71B93A00E58FEB /* EssenceViewController.h */,
+				89C4E44B1C71B93A00E58FEB /* EssenceViewController.m */,
+			);
+			path = "精华";
+			sourceTree = "<group>";
+		};
+		89C4E44C1C71B93A00E58FEB /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E44D1C71B93A00E58FEB /* MeViewController.h */,
+				89C4E44E1C71B93A00E58FEB /* MeViewController.m */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
+		89C4E44F1C71B93A00E58FEB /* 新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E4501C71B93A00E58FEB /* NewViewController.h */,
+				89C4E4511C71B93A00E58FEB /* NewViewController.m */,
+			);
+			path = "新帖";
+			sourceTree = "<group>";
+		};
+		89C4E4591C71C99D00E58FEB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E45B1C71CA6D00E58FEB /* UIView+Extension.h */,
+				89C4E45C1C71CA6D00E58FEB /* UIView+Extension.m */,
+				89C4E4681C71D59000E58FEB /* UIBarButtonItem+Extension.h */,
+				89C4E4691C71D59000E58FEB /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		89C4E45E1C71CB3B00E58FEB /* TabbarNav */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E45F1C71CB5F00E58FEB /* TabBar.h */,
+				89C4E4601C71CB5F00E58FEB /* TabBar.m */,
+				89C4E4611C71CB5F00E58FEB /* TabbarController.h */,
+				89C4E4621C71CB5F00E58FEB /* TabbarController.m */,
+			);
+			path = TabbarNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89C4E3FC1C71A55F00E58FEB /* ViewController.m in Sources */,
+				89C4E45D1C71CA6D00E58FEB /* UIView+Extension.m in Sources */,
 				89C4E3F91C71A55F00E58FEB /* AppDelegate.m in Sources */,
+				89C4E4531C71B93A00E58FEB /* EssenceViewController.m in Sources */,
+				89C4E4541C71B93A00E58FEB /* MeViewController.m in Sources */,
+				89C4E46A1C71D59000E58FEB /* UIBarButtonItem+Extension.m in Sources */,
+				89C4E4551C71B93A00E58FEB /* NewViewController.m in Sources */,
+				89C4E4641C71CB5F00E58FEB /* TabbarController.m in Sources */,
 				89C4E3F61C71A55F00E58FEB /* main.m in Sources */,
+				89C4E4521C71B93A00E58FEB /* FriendTrendsViewController.m in Sources */,
+				89C4E4631C71CB5F00E58FEB /* TabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = BaiSiBuDeJie/PrefixHeader.pch;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boen.BaiSiBuDeJie;
@@ -397,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = BaiSiBuDeJie/PrefixHeader.pch;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Boen.BaiSiBuDeJie;

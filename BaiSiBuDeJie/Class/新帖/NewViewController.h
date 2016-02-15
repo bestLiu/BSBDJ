@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewViewController.h
 //  BaiSiBuDeJie
 //
 //  Created by mac1 on 16/2/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NewViewController : UIViewController
 
 @end
-
