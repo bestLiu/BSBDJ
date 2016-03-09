@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892C21C11C9021590045D631 /* LCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 892C21C01C9021590045D631 /* LCNavigationController.m */; };
 		89C4E3F61C71A55F00E58FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E3F51C71A55F00E58FEB /* main.m */; };
 		89C4E3F91C71A55F00E58FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C4E3F81C71A55F00E58FEB /* AppDelegate.m */; };
 		89C4E4011C71A55F00E58FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C4E4001C71A55F00E58FEB /* Assets.xcassets */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		892C21BF1C9021590045D631 /* LCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNavigationController.h; sourceTree = "<group>"; };
+		892C21C01C9021590045D631 /* LCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNavigationController.m; sourceTree = "<group>"; };
 		89C4E3F11C71A55F00E58FEB /* BaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C4E3F51C71A55F00E58FEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89C4E3F71C71A55F00E58FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +99,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		892C21BE1C900FDC0045D631 /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+				89C4E45E1C71CB3B00E58FEB /* TabbarNav */,
+				89C4E4591C71C99D00E58FEB /* Category */,
+				892C21C21C9027790045D631 /* BaseNav */,
+			);
+			name = "其它";
+			sourceTree = "<group>";
+		};
+		892C21C21C9027790045D631 /* BaseNav */ = {
+			isa = PBXGroup;
+			children = (
+				892C21BF1C9021590045D631 /* LCNavigationController.h */,
+				892C21C01C9021590045D631 /* LCNavigationController.m */,
+			);
+			name = BaseNav;
+			sourceTree = "<group>";
+		};
 		89C4E3E81C71A55F00E58FEB = {
 			isa = PBXGroup;
 			children = (
@@ -159,12 +181,11 @@
 		89C4E4361C71B8D700E58FEB /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				89C4E45E1C71CB3B00E58FEB /* TabbarNav */,
-				89C4E4591C71C99D00E58FEB /* Category */,
 				89C4E4491C71B93A00E58FEB /* 精华 */,
 				89C4E44F1C71B93A00E58FEB /* 新帖 */,
 				89C4E4461C71B93A00E58FEB /* 关注 */,
 				89C4E44C1C71B93A00E58FEB /* 我 */,
+				892C21BE1C900FDC0045D631 /* 其它 */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -363,6 +384,7 @@
 				89C4E4551C71B93A00E58FEB /* NewViewController.m in Sources */,
 				89C4E4641C71CB5F00E58FEB /* TabbarController.m in Sources */,
 				89C4E3F61C71A55F00E58FEB /* main.m in Sources */,
+				892C21C11C9021590045D631 /* LCNavigationController.m in Sources */,
 				89C4E4521C71B93A00E58FEB /* FriendTrendsViewController.m in Sources */,
 				89C4E4631C71CB5F00E58FEB /* TabBar.m in Sources */,
 			);
@@ -573,6 +595,7 @@
 				89C4E4201C71A55F00E58FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C4E4211C71A55F00E58FEB /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +604,7 @@
 				89C4E4231C71A55F00E58FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89C4E4241C71A55F00E58FEB /* Build configuration list for PBXNativeTarget "BaiSiBuDeJieUITests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +613,7 @@
 				89C4E4261C71A55F00E58FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

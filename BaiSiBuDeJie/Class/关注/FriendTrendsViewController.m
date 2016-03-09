@@ -21,6 +21,7 @@
     
     //左边按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(friendsRecommentButtonAction:) image:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click"];
+    self.view.backgroundColor = LCGlobelColor;
 }
 
 - (void)friendsRecommentButtonAction:(UIButton *)button

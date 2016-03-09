@@ -21,6 +21,7 @@
     
     //左边按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithTarget:self action:@selector(tagButtonAction:) image:@"MainTagSubIcon" highImage:@"MainTagSubIconClick"];
+    self.view.backgroundColor = LCGlobelColor;
 }
 
 - (void)tagButtonAction:(UIButton *)button
